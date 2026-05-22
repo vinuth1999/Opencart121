@@ -39,7 +39,8 @@ public class TC002_LoginTest extends BaseClass {
 		}
 		
 		logger.info("**** Login test is Finished ****");
-		System.out.println("it is just for checking the git ");
+		System.out.println("it is just for checking the git 1 ");
+		System.out.println("it is just for checking the git 2 ");
 		
 	}
 }
