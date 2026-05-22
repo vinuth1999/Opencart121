@@ -50,6 +50,7 @@ public class TC001_AccountRegistration extends BaseClass {
 		}
 		catch (Exception e) {
 			
+			logger.error(e.getMessage());
 			Assert.fail();
 		}
 		

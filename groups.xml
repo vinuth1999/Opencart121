@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite">
 
-<groups>
+
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager"/>
+	</listeners>
+
+ <test thread-count="5" name="Test">
+  
+  <groups>
 	<run>
 		 <include name="Master" /> 
 		<!-- <include name="Regression" />
 		 <include name="Sanity" />
 		 <include name="Datadriven" />-->
 	</run>
-</groups>
-
-	<listeners>
-		<listener class-name="utilities.ExtentReportManager"/>
-	</listeners>
-
-  <test thread-count="5" name="Test">
+  </groups>
+  
   <parameter name="os" value="windows"/>
   <parameter name="browser" value="chrome"/>
     <classes>

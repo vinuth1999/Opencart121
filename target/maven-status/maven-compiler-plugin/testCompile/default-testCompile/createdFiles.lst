@@ -11,3 +11,4 @@ utilities\ExtentReportManager.class
 testCases\TC001_AccountRegistration.class
 utilities\DataProviders.class
 pageObjects\SearchPage.class
+pageObjects\New_Page.class
